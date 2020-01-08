@@ -46,9 +46,10 @@ For the following exercises please read the Python appendix in the Marsland text
 ## Exercise 1
 
 ```python
-# YOUR SOLUTION HERE
-#a=1000
-print('this is my answer',a+1) 
+import numpy
+
+a = numpy.full((6, 4), 2)
+print(a)
 ```
 
 ## Exercise 2
